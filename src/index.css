@@ -33,6 +33,9 @@ body{
   background-position: center center;
   background-size: cover;
 }
+.gallery_box_in:hover{
+  transform: translatey(-15px);
+}
 .gallery_box_in:nth-child(1) {
   transform: rotateY(0deg) translateZ(450px);
 }

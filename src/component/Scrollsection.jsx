@@ -25,9 +25,9 @@ const Scrollsection = () => {
         });
     })
     return (
-        <section className="work2 bg-black relative">
-            <span className="fixed left-[50%] top-[50%]"></span>
-            <div className="gallery_box">
+        <section className="work2 relative mt-[25vh] mb-[150vh] bg-black">
+            
+            <div className="gallery_box ">
                 <div class="gallery_box_outer">
                     <div className="gallery_box_in flex item-center" style={{ background: 'black', }}>
                         <img src="/public/project1.jpg" alt="" />
