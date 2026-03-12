@@ -24,7 +24,7 @@ const Hero = () => {
   return (
     <section id='hero' className="h-[200vh] bg-[url('/public/heroimg.webp')] bg-center bg-cover p-[25px] md:p-[50px] lg:p-[100px]">
 
-        <div className="h-[100vh] flex items-center">
+        <div className="h-[100vh] flex items-center mb-15">
             <span className="text-[clamp(2rem,4vw,5rem)] font-bold uppercase text-white mix-blend-difference">web Engineer</span>
         </div>
 

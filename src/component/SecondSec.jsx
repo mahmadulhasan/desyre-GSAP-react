@@ -95,7 +95,7 @@ const SecondSec = () => {
         THIS, HOW I DEVELOP.
       </span>
 
-      <div className="flex flex-col text-8xl text-white font-bold ">
+      <div className="flex flex-col text-4xl md:text-6xl lg:text-8xl text-white font-bold ">
         <span id='text1'>WHY IT MATTERS</span>
         <span id='text2'>BUILT FOR YOU</span>
       </div>

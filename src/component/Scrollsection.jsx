@@ -25,7 +25,7 @@ const Scrollsection = () => {
         });
     })
     return (
-        <section className="work2 relative mt-[25vh] mb-[150vh] bg-black">
+        <section className="work2 relative mt-[25vh] mb-[400vh] ">
             
             <div className="gallery_box ">
                 <div class="gallery_box_outer">

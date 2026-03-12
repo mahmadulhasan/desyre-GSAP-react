@@ -5,6 +5,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import SecondSec from './component/SecondSec'
 import Scrollsection from './component/Scrollsection'
+import Thirdsection from './component/thirdsection'
 
 const App = () => {
 
@@ -18,7 +19,7 @@ const App = () => {
         y: "50vh"
       },
       {
-        fontSize:'2vw',
+        fontSize:'40px',
         y: 0,
         ease: "none",
         scrollTrigger: {
@@ -33,11 +34,11 @@ const App = () => {
   })
 
   return (
-    <main className="relative" id='main'>
+    <main className="relative w-full overflow-hidden" id='main'>
 
       <span
         id='desyre'
-        className="fixed text-white m-0 top-0  left-[25px] md:left-[50px] lg:left-[100px] z-[999] font-bold mix-blend-difference inter text-[clamp(2rem,3vw,3rem)]"
+        className="fixed text-white m-0 top-0  left-[25px] md:left-[50px] lg:left-[100px] z-[999] font-bold mix-blend-difference inter text-[clamp(3rem,3vw,5rem)]"
       >
         DESYRE
       </span>
@@ -45,8 +46,9 @@ const App = () => {
       <Hero />
       <SecondSec />
       <Scrollsection />
+      <Thirdsection />
 
-      <div className="h-screen bg-white"></div>
+      <div className="h-screen bg-[#800080]"></div>
 
     </main>
   )
